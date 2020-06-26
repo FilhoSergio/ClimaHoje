@@ -1,0 +1,157 @@
+#page-home {
+  height: 100vh;
+
+  background: url("../../assets/undraw_weather_app_i5sm.svg") no-repeat 600px
+    bottom;
+}
+#page-home img {
+  /* width: 60px !important; */
+  height: 80px;
+}
+#page-home .content {
+  width: 100%;
+  height: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+#page-home .content header {
+  margin: 48px 0 0;
+}
+
+#page-home .content main {
+  flex: 1;
+  max-width: 560px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#page-home .content main h1 {
+  font-size: 54px;
+  color: var(--title-color);
+}
+
+#page-home .content main p {
+  font-size: 24px;
+  margin-top: 24px;
+  line-height: 38px;
+}
+
+#page-home .content main a {
+  width: 100%;
+  max-width: 360px;
+  height: 72px;
+  background: var(--primary-color);
+  border-radius: 8px;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  margin-top: 40px;
+}
+
+#page-home .content main a span {
+  display: block;
+  background: rgba(0, 0, 0, 0.08);
+  width: 72px;
+  height: 72px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+#page-home .content main a span svg {
+  color: #fff;
+  width: 20px;
+  height: 20px;
+}
+
+#page-home .content main a strong {
+  flex: 1;
+  text-align: center;
+  color: #fff;
+}
+
+#page-home .content  button {
+  width: 90px;
+  color: white;
+  float: right !important;
+  
+  background: #f9a826;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+  #page-home .content {
+    align-items: center;
+    text-align: center;
+  }
+
+  #page-home .content header {
+    margin: 48px auto 0;
+  }
+
+  #page-home .content main {
+    align-items: center;
+  }
+
+  #page-home .content main h1 {
+    font-size: 42px;
+  }
+
+  #page-home .content main p {
+    font-size: 24px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.search {
+    height: 42px;
+    width: 490px;
+    
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+
+
+
+
+
+
+.square_btn:active {/*on Click*/
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}
+
+.imgmini {
+  margin: 5px 0;
+  width: 40px !important;
+  height: 40px !important;
+}
+.imgmacro{
+  width: 120px !important;
+  height: 120px !important ;
+}
